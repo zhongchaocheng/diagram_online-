@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T06:45:34.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.6.12" etag="S4XIHZyRqK1N8-ndzOJo" type="github"><diagram id="qLIZ-qabKY6jq-YonhRl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-29T06:57:55.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="pVqxJ22afspgT1cyseL6" version="14.6.12" type="github">
+  <diagram id="qLIZ-qabKY6jq-YonhRl" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-1" value="开始&lt;br&gt;Flag1=false&lt;br&gt;Flag2=false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="plwFnA4q0GIvdYa7KlvL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-3" value="读取当前视频帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="plwFnA4q0GIvdYa7KlvL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="plwFnA4q0GIvdYa7KlvL-8" target="plwFnA4q0GIvdYa7KlvL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-8" value="检测虚拟线圈2&lt;br&gt;是否发生灰度跳变" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="420" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="plwFnA4q0GIvdYa7KlvL-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-10" value="检测虚拟线圈1&lt;br&gt;是否发生灰度跳变" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-16" value="如果发生跳变 ，&lt;br&gt;记录下当前帧数K2&lt;br&gt;Flag2=true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="plwFnA4q0GIvdYa7KlvL-19" target="plwFnA4q0GIvdYa7KlvL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plwFnA4q0GIvdYa7KlvL-19" value="如果发生跳变 ，&lt;br&gt;记录下当前帧数K1&lt;br&gt;Flag1=true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
