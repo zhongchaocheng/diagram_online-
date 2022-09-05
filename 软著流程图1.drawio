@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T12:30:34.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="4jhgCCeXJGVwVxoSW5nq" type="github"><diagram id="giXXupqIJXBNjjUJRf8C">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-05T12:00:39.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WQ94x8kq5Jz-inVROfpq" version="20.2.7" type="github">
+  <diagram id="giXXupqIJXBNjjUJRf8C" name="第 1 页">
+    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f3XiWJN79T-EPibYuXNa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-1" target="f3XiWJN79T-EPibYuXNa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-1" value="&lt;b&gt;开始&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-2" target="f3XiWJN79T-EPibYuXNa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-2" value="&lt;span style=&quot;-webkit-text-stroke-width: 0px;&quot;&gt;&lt;b&gt;连接机器人，启动视觉系统，力传感器&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="220" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-3" target="f3XiWJN79T-EPibYuXNa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-3" value="&lt;span style=&quot;-webkit-text-stroke-width: 0px;&quot;&gt;&lt;b&gt;根据打磨任务，采集示教数据&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="300" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-5" target="f3XiWJN79T-EPibYuXNa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-5" value="&lt;span style=&quot;-webkit-text-stroke-width: 0px;&quot;&gt;&lt;b&gt;利用示教数据进行运动规划，生成打磨轨迹&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="380" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-6" target="f3XiWJN79T-EPibYuXNa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-6" value="&lt;span style=&quot;-webkit-text-stroke-width: 0px;&quot;&gt;&lt;b&gt;执行打磨任务&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="450" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-7" target="f3XiWJN79T-EPibYuXNa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-7" value="&lt;span style=&quot;-webkit-text-stroke-width: 0px;&quot;&gt;&lt;b&gt;根据打磨力实时调整打磨位姿&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f3XiWJN79T-EPibYuXNa-8" target="f3XiWJN79T-EPibYuXNa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-8" value="&lt;span style=&quot;-webkit-text-stroke-width: 0px;&quot;&gt;&lt;b&gt;实时监控打磨状态&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f3XiWJN79T-EPibYuXNa-10" value="&lt;b&gt;结束&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
